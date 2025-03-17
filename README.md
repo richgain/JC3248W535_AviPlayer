@@ -2,6 +2,7 @@ Still attempting to combine a video selection UI, written in LVGL code, with the
 At present, the program crashes when the selected video file is handed over to the AviPlayer, probably due to memory conflicts.
 
 For example:
+```sh
 14:29:54.846 -> Rebooting...
 14:29:54.846 -> ESP-ROM:esp32s3-20210327
 14:29:54.846 -> Build:Mar 27 2021
@@ -50,4 +51,4 @@ For example:
 14:55:48.346 -> Backtrace: 0x420319b4:0x3fca7800 0x42081cea:0x3fca7820 0x4208189b:0x3fca7840 0x420816f7:0x3fca7860 0x420305e3:0x3fca7890 0x42030609:0x3fca78b0 0x42002fc6:0x3fca78d0 0x42003155:0x3fca7990 0x42042d10:0x3fca79b0 0x4037e922:0x3fca79d0
 14:55:48.346 -> 
 14:55:48.346 -> 
-
+```
